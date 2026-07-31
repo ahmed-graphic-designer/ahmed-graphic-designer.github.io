@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ahmed | Graphic Designer</title>
+<meta name="description" content="Ahmed — CorelDRAW Graphic Designer Portfolio. Branding, print design, social media and creative artwork.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#home"><span>AH</span> AHMED</a>
+  <button class="menu" aria-label="Open menu">☰</button>
+  <nav>
+    <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#work">Portfolio</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">CORELDRAW GRAPHIC DESIGNER</p>
+    <h1>Design that makes<br><em>your brand</em> stand out.</h1>
+    <p class="lead">Creative, modern and professional visual designs for brands, businesses and personal projects.</p>
+    <div class="buttons">
+      <a class="btn primary" href="#work">View My Work ↗</a>
+      <a class="btn ghost" href="#contact">Let's Talk</a>
+    </div>
+  </div>
+  <div class="hero-art">
+    <div class="orb orb1"></div><div class="orb orb2"></div>
+    <div class="poster">
+      <small>AHMED / 2026</small>
+      <strong>CREATE<br>DESIGN<br>INSPIRE.</strong>
+      <span>CORELDRAW • BRANDING • PRINT</span>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section about">
+  <div><p class="eyebrow">ABOUT ME</p><h2>Creative ideas.<br><em>Professional results.</em></h2></div>
+  <div><p>I’m Ahmed, a graphic designer specializing in CorelDRAW-based visual design. I create clean, modern and practical artwork that helps businesses communicate with confidence.</p><p>From logos and business cards to promotional graphics and print-ready designs, I focus on strong composition, typography and a polished final presentation.</p></div>
+</section>
+
+<section id="services" class="section">
+  <p class="eyebrow">WHAT I DO</p><h2>My <em>Services</em></h2>
+  <div class="cards">
+    <article><b>01</b><h3>Logo & Branding</h3><p>Memorable logo concepts and visual identities for modern brands.</p></article>
+    <article><b>02</b><h3>Print Design</h3><p>Flyers, posters, brochures, banners, invitations and cards.</p></article>
+    <article><b>03</b><h3>Business Stationery</h3><p>Business cards, letterheads, envelopes and professional office materials.</p></article>
+    <article><b>04</b><h3>Social Media</h3><p>Promotional posts, advertisements, covers and digital creatives.</p></article>
+    <article><b>05</b><h3>Packaging & Labels</h3><p>Product labels, stickers and attractive packaging concepts.</p></article>
+    <article><b>06</b><h3>Custom Artwork</h3><p>Typography, layouts, photo compositions and creative artwork.</p></article>
+  </div>
+</section>
+
+<section id="work" class="section work">
+  <p class="eyebrow">SELECTED WORK</p><h2>Portfolio <em>Showcase</em></h2>
+  <p class="intro">A curated collection of design concepts. Replace these showcase cards with your actual CorelDRAW projects anytime.</p>
+  <div class="gallery">
+    <div class="project p1"><span>BRAND IDENTITY</span><strong>AH<br>STUDIO</strong></div>
+    <div class="project p2"><span>POSTER DESIGN</span><strong>CREATE.<br>DESIGN.<br>INSPIRE.</strong></div>
+    <div class="project p3"><span>BUSINESS CARD</span><strong>AHMED<br><small>GRAPHIC DESIGNER</small></strong></div>
+    <div class="project p4"><span>PACKAGING</span><strong>PREMIUM<br>PRODUCT</strong></div>
+  </div>
+</section>
+
+<section class="section process">
+  <p class="eyebrow">MY PROCESS</p><h2>Simple. Clear. <em>Effective.</em></h2>
+  <div class="steps"><div><b>01</b><h3>Brief</h3><p>Understand your idea and design requirements.</p></div><div><b>02</b><h3>Create</h3><p>Develop a clean and creative visual direction.</p></div><div><b>03</b><h3>Refine</h3><p>Polish details and prepare the final artwork.</p></div><div><b>04</b><h3>Deliver</h3><p>Provide professional, ready-to-use design files.</p></div></div>
+</section>
+
+<section id="contact" class="contact">
+  <div><p class="eyebrow">LET'S WORK TOGETHER</p><h2>Have a project<br>in <em>mind?</em></h2><p>Contact me for graphic design, branding and CorelDRAW artwork.</p></div>
+  <div class="contact-info">
+    <a href="tel:+923396192241"><span>PHONE</span>+92 339 6192241</a>
+    <a href="mailto:ahmadamanullah18@gmail.com"><span>EMAIL</span>ahmadamanullah18@gmail.com</a>
+    <div><span>ADDRESS</span>Wadala Sandhwan, Tehsil Daska, District Sialkot</div>
+  </div>
+</section>
+</main>
+
+<footer><span>© 2026 AHMED — GRAPHIC DESIGNER</span><span>CORELDRAW • BRANDING • PRINT • DIGITAL</span></footer>
+<script>
+const menu=document.querySelector('.menu'), nav=document.querySelector('nav');
+menu.addEventListener('click',()=>nav.classList.toggle('open'));
+document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
+</script>
+</body>
+</html>
