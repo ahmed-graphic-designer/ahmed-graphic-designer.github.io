@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Designer - Graphic Designer Dubai</title>
+    <style>
+        body { font-family: Arial; margin: 0; background: #f4f4f4; color: #333; }
+        .header { background: #0056b3; color: white; text-align: center; padding: 40px 20px; }
+        .header h1 { margin: 0; font-size: 32px; }
+        .container { max-width: 900px; margin: 20px auto; padding: 20px; background: white; }
+        .portfolio { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; }
+        .portfolio img { width: 100%; border-radius: 8px; border: 2px solid #ddd; }
+        .btn { display: inline-block; background: #25D366; color: white; padding: 12px 25px; 
+               text-decoration: none; border-radius: 5px; font-weight: bold; }
+        .contact { background: #eee; padding: 20px; text-align: center; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>AHMED DESIGNER</h1>
+        <p>CorelDraw Expert | Graphic Designer for Dubai</p>
+    </div>
+    <div class="container">
+        <h2>About Me</h2>
+        <p>CorelDraw Expert with 2+ years experience in Banner, Flex, Visiting Card & Logo Design. 
+        Seeking Graphic Designer Position in Dubai with Employment Visa.</p>
+        <h2>My Work</h2>
+        <div class="portfolio">
+            <img src="https://via.placeholder.com/400x300/0056b3/FFFFFF?text=Visiting+Card" alt="Card">
+            <img src="https://via.placeholder.com/400x300/FF0000/FFFFFF?text=Banner" alt="Banner">
+        </div>
+        <div class="contact">
+            <h2>Contact Me</h2>
+            <p><b>WhatsApp:</b> +92 339 6192241</p>
+            <a href="https://wa.me/923396192241" class="btn">WhatsApp Me</a>
+        </div>
+    </div>
+</body>
+</html>
